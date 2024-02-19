@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+
+  <style>
+    body {
+      background-color: rgb(182, 223, 250);
+      z-index: -10;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding-top: 12px;
+      overflow: hidden;
+      background-color: white;
+      height: 80px;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: rgb(70, 73, 250);
+      font-family: 'Jomhuria', cursive;
+      font-weight: bold;
+    }
+
+    li a:hover:not(.active) {
+      color: rgb(0, 0, 0);
+      border-radius: 20px;
+      background-color: rgb(109, 201, 255);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    .column1 {
+      float: left;
+      width: 40%;
+      padding: 10px;
+      height: 100%;
+    }
+
+    .column2 {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 100%;
+      background-color: rgb(182, 223, 250);
+      margin-left: 10%;
+      margin-top: 15%;
+    }
+
+
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .hero-banner__content {
+      padding-bottom: 50px
+    }
+    
+
+    @media (min-width:1000px) {
+      .hero-banner__content {
+        max-width: 495px
+      }
+    }
+
+    .hero-banner__content h4 {
+      font-size: 30px;
+      font-family: "Roboto", sans-serif;
+      color: #555;
+      margin-bottom: 12px
+    }
+
+    .hero-banner__content h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 25px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 10px
+    }
+
+    @media (min-width:767px) {
+      .hero-banner__content h1 {
+        font-size: 30px;
+        margin-bottom: 25px
+      }
+    }
+
+    @media (min-width:991px) {
+      .hero-banner__content h1 {
+        font-size: 50px
+      }
+    }
+
+    .hero-banner__content p {
+      margin-bottom: 10px
+    }
+
+    @media (min-width:767px) {
+      .hero-banner__content p {
+        margin-bottom: 40px
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li style="margin-left: 12%;"><img src="shopping-logo.png" alt="shoppinglogo" style="width: 104px;height: 56px;" />
+    </li>
+    <li style="margin-left: 10%;"><a class="active" href="assign.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="categories.html">Categoris</a></li>
+    <li><a href="account.html">Your Account</a></li>
+    <li style="margin-left: 5%;"><img src="scart.PNG" alt="cart" /></li>
+  </ul>
+
+  <div class="row">
+    <div class="column1" style="background-color: rgb(70, 73, 250);">
+      <img src="shopping1.png" alt="shoppingcart" style="margin-left: 40%;margin-top: 10%;" />
+    </div>
+    <div class="column2">
+      <div class="hero-banner__content">
+        <h4>Shopping is fun</h4>
+        <h1>Incredible Sale for Incredible People</h1>
+        <p>Top brands for Phones and Electronics. Latest trends in Fashion. Free Shipping available* Choose from a vast
+          selection of the best quality products. 100% Purchase protection. 100% Purchase Protection. Huge Selection.
+          Easy Returns. Pay On Delivery. Free Shipping*.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

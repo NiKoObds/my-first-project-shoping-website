@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        .row {
+            margin: 0 -5px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            padding-left: 48px;
+        }
+
+        body {
+            background-color: rgb(182, 223, 250);
+            z-index: -10;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding-top: 12px;
+            overflow: hidden;
+            background-color: white;
+            height: 80px;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: rgb(70, 73, 250);
+            font-family: 'Jomhuria', cursive;
+            font-weight: bold;
+        }
+
+        li a:hover:not(.active) {
+            color: rgb(0, 0, 0);
+            border-radius: 20px;
+            background-color: rgb(59, 141, 189);
+    }
+   * {
+            box-sizing: border-box;
+        }
+
+
+        .column1 {
+            float: left;
+            width: 40%;
+            padding: 10px;
+            height: 100%;
+        }
+
+        .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 100%;
+            background-color: rgb(182, 223, 250);
+            margin-left: 10%;
+            margin-top: 15%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .card img {
+            width: 224px;
+            height: 225px;
+        }
+        p{
+            color:  rgb(70, 73, 250);
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li style="margin-left: 12%;"><img src="shopping-logo.png" alt="shoppinglogo"
+                style="width: 104px;height: 56px;" /></li>
+        <li style="margin-left: 10%;"><a class="active" href="assign.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#categories.html">Categoris</a></li>
+        <li><a href="account.html">Your Account</a></li>
+        <li style="margin-left: 5%;"><img src="scart.PNG" alt="cart" /></li>
+    </ul>
+
+    <div style="margin-left: 5%;margin-right: 5%; margin-top: 5%;">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                   <h3> Mens</h3>
+                    <p>Topwear<br>Bottomwear<br>Indian&Festive Wear<br>Watches<br>Gadgets<br>Footwear<br>bag</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                  <h3>Womens</h3>
+                    <p>Tops<br>Traditional wear<br>Footwear<br>Cosmetics<br>Western wear<br>Sports wear<br>Hand-bags</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                   <h3>Kids</h3>
+                    <p>Boys Clothing <br>Girls Clothing<br>Boys Footwear<br>Girls Footwear<br>Toys<br>Accessories<br>Bath</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <h3>Home & Living</h3>
+                    <p>Home decor<br>Kitchen & Table<br>Lamps<br>Curtains<br> Home Gift Set<br>Flooring<br>Cushions Cover</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 5%;">
+            <div class="column">
+                <div class="card">
+                   <h3>Electrical Appliences</h3>
+                    <p>Table Fan<br>AC<br>Lights<br>Cooler<br>Heater<br>Fridge<br>Washing Machine<br>TV</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <h3> Mobiles</h3>
+                    <p>Realme<br>One-Plus<br>Samsung<br>Xiaomi<br>I-phone<br>Jio<br>Micromax<br>Oppo</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                  <h3> Mobile Cover</h3>
+                    <p>Back Cover<br>Flip Cover<br>Glass Cover<br>Custamized Cover<br>Fibric Cover<br>Hard Cover<br>Gel<br>Leather</p>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                   <h3> Furniture</h3>
+                    <p>Bed<br>Table<br>Cupboard<br>Furniture<br>Sofa<br>Chair<br>End Table<br>Center Table</p>
+
+                </div>
+            </div>
+       </div>
+</div>
+</body>
+
+</html>
